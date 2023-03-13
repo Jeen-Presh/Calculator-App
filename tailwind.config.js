@@ -45,7 +45,26 @@ module.exports = {
       T3textblue: "#FFE53D",
       T3textwhite: "#FFFFFF",
     },
-    extend: {},
+
+    fontSize: {
+      xs: ["0.75rem", { lineHeight: "11px", letterSpacing: "1px " }],
+
+      sm: ["1.25rem", { lineHeight: "18px", letterSpacing: "-0.333333px" }],
+
+      lg: ["2rem", { lineHeight: "29px", letterSpacing: "-0.533333px" }],
+
+      xl: ["2.5rem", { lineHeight: "37px", letterSpacing: "-0.666667px" }],
+
+      "2xl": ["3.5rem", { lineHeight: "52px", letterSpacing: "-0.933333px" }],
+
+      "2sm": ["1.75rem", { lineHeight: "26px", letterSpacing: "-0.466667px" }],
+    },
+    
+    extend: {
+      fontFamily: {
+        sparta: "'League Spartan' , sans-serif",
+      },
+    },
   },
   plugins: [],
 };
